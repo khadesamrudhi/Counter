@@ -31,9 +31,10 @@ function Counter() {
 
     let decrease2 = () => {
         let updatecount = count;
-        if (updatecount > 0) {
-            setCount(updatecount - 2)
+        if (updatecount >= 1) {
+            setCount(0)
         }
+
     }
     return (
         <>
